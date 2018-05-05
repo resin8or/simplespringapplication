@@ -1,0 +1,100 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\1000\1003 MongoTemplate\MongoTemplate
+   │
+   ├[.mvn]
+   │   │
+   │   └[wrapper]
+   │       │
+   │       ├maven-wrapper
+   │       └maven-wrapper
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.core
+   │   ├org.eclipse.m2e.core
+   │   └org.eclipse.wst.common.project.facet.core
+   ├[bin]
+   │   │
+   │   ├[.mvn]
+   │   │   │
+   │   │   └[wrapper]
+   │   │       │
+   │   │       ├maven-wrapper
+   │   │       └maven-wrapper
+   │   ├[.settings]
+   │   │   │
+   │   │   ├org.eclipse.core.resources
+   │   │   └org.eclipse.m2e.core
+   │   ├[src]
+   │   │   │
+   │   │   ├[main]
+   │   │   │   │
+   │   │   │   ├[java]
+   │   │   │   │   │
+   │   │   │   │   └[com]
+   │   │   │   │       │
+   │   │   │   │       └[oreilly]
+   │   │   │   │           │
+   │   │   │   │           └[boot]
+   │   │   │   │               │
+   │   │   │   │               └SpringBootMongoApplication
+   │   │   │   └[resources]
+   │   │   │       │
+   │   │   │       ├[templates]
+   │   │   │       └application
+   │   │   └[test]
+   │   │       │
+   │   │       └[java]
+   │   │           │
+   │   │           └[com]
+   │   │               │
+   │   │               └[oreilly]
+   │   │                   │
+   │   │                   └[boot]
+   │   │                       │
+   │   │                       └SpringBootMongoApplicationTests
+   │   ├[target]
+   │   │   │
+   │   │   └[classes]
+   │   │       │
+   │   │       └[META-INF]
+   │   │           │
+   │   │           └MANIFEST
+   │   ├
+   │   ├mvnw
+   │   ├mvnw
+   │   └pom
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               ├SpringBootMongoApplication
+   │   │   │               └Stock
+   │   │   └[resources]
+   │   │       │
+   │   │       ├[static]
+   │   │       ├[templates]
+   │   │       └application
+   │   └[test]
+   │       │
+   │       └[java]
+   │           │
+   │           └[com]
+   │               │
+   │               └[oreilly]
+   │                   │
+   │                   └[boot]
+   │                       │
+   │                       └SpringBootMongoApplicationTests
+   ├
+   ├
+   ├mvnw
+   ├mvnw
+   └pom

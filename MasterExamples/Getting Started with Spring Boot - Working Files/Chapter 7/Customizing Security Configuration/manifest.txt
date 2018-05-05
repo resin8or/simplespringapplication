@@ -1,0 +1,105 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0700\0704 Customizing Security Configuration\Customizing Security Configuration
+   │
+   ├[.mvn]
+   │   │
+   │   └[wrapper]
+   │       │
+   │       ├maven-wrapper
+   │       └maven-wrapper
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.core
+   │   ├org.eclipse.m2e.core
+   │   └org.eclipse.wst.common.project.facet.core
+   ├[bin]
+   │   │
+   │   ├[.mvn]
+   │   │   │
+   │   │   └[wrapper]
+   │   │       │
+   │   │       ├maven-wrapper
+   │   │       └maven-wrapper
+   │   ├[.settings]
+   │   │   │
+   │   │   ├org.eclipse.core.resources
+   │   │   └org.eclipse.m2e.core
+   │   ├[src]
+   │   │   │
+   │   │   ├[main]
+   │   │   │   │
+   │   │   │   ├[java]
+   │   │   │   │   │
+   │   │   │   │   └[com]
+   │   │   │   │       │
+   │   │   │   │       └[oreilly]
+   │   │   │   │           │
+   │   │   │   │           └[boot]
+   │   │   │   │               │
+   │   │   │   │               └SpringBootSecurityApplication
+   │   │   │   └[resources]
+   │   │   │       │
+   │   │   │       ├[templates]
+   │   │   │       └application
+   │   │   └[test]
+   │   │       │
+   │   │       └[java]
+   │   │           │
+   │   │           └[com]
+   │   │               │
+   │   │               └[oreilly]
+   │   │                   │
+   │   │                   └[boot]
+   │   │                       │
+   │   │                       └SpringBootSecurityApplicationTests
+   │   ├[target]
+   │   │   │
+   │   │   └[classes]
+   │   │       │
+   │   │       └[META-INF]
+   │   │           │
+   │   │           └MANIFEST
+   │   ├
+   │   ├mvnw
+   │   ├mvnw
+   │   └pom
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               ├CustomSecurityEventListener
+   │   │   │               └SpringBootSecurityApplication
+   │   │   └[resources]
+   │   │       │
+   │   │       ├[static]
+   │   │       │   │
+   │   │       │   ├[css]
+   │   │       │   │   │
+   │   │       │   │   └page
+   │   │       │   └index
+   │   │       ├[templates]
+   │   │       └application
+   │   └[test]
+   │       │
+   │       └[java]
+   │           │
+   │           └[com]
+   │               │
+   │               └[oreilly]
+   │                   │
+   │                   └[boot]
+   │                       │
+   │                       └SpringBootSecurityApplicationTests
+   ├
+   ├
+   ├mvnw
+   ├mvnw
+   └pom

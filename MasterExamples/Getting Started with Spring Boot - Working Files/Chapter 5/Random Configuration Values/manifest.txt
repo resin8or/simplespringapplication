@@ -1,0 +1,49 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0500\0502 Random Configuration Values\Random Configuration Values
+   │
+   ├[.mvn]
+   │   │
+   │   └[wrapper]
+   │       │
+   │       ├maven-wrapper
+   │       └maven-wrapper
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.core
+   │   └org.eclipse.m2e.core
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               ├Application
+   │   │   │               └MyMessage
+   │   │   └[resources]
+   │   │       │
+   │   │       ├[static]
+   │   │       ├[templates]
+   │   │       ├application
+   │   │       └application2
+   │   └[test]
+   │       │
+   │       └[java]
+   │           │
+   │           └[com]
+   │               │
+   │               └[oreilly]
+   │                   │
+   │                   └[boot]
+   │                       │
+   │                       └ApplicationTests
+   ├
+   ├
+   ├mvnw
+   ├mvnw
+   └pom

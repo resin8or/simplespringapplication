@@ -1,0 +1,105 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\1200\1205 Advanced Logging Configuration\Advanced Logging Configuration
+   │
+   ├[.mvn]
+   │   │
+   │   └[wrapper]
+   │       │
+   │       ├maven-wrapper
+   │       └maven-wrapper
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.core
+   │   ├org.eclipse.m2e.core
+   │   └org.eclipse.wst.common.project.facet.core
+   ├[bin]
+   │   │
+   │   ├[.mvn]
+   │   │   │
+   │   │   └[wrapper]
+   │   │       │
+   │   │       ├maven-wrapper
+   │   │       └maven-wrapper
+   │   ├[.settings]
+   │   │   │
+   │   │   ├org.eclipse.core.resources
+   │   │   └org.eclipse.m2e.core
+   │   ├[src]
+   │   │   │
+   │   │   ├[main]
+   │   │   │   │
+   │   │   │   ├[java]
+   │   │   │   │   │
+   │   │   │   │   └[com]
+   │   │   │   │       │
+   │   │   │   │       └[oreilly]
+   │   │   │   │           │
+   │   │   │   │           └[boot]
+   │   │   │   │               │
+   │   │   │   │               └SpringBootToolsApplication
+   │   │   │   └[resources]
+   │   │   │       │
+   │   │   │       ├[templates]
+   │   │   │       └application
+   │   │   └[test]
+   │   │       │
+   │   │       └[java]
+   │   │           │
+   │   │           └[com]
+   │   │               │
+   │   │               └[oreilly]
+   │   │                   │
+   │   │                   └[boot]
+   │   │                       │
+   │   │                       └SpringBootToolsApplicationTests
+   │   ├[target]
+   │   │   │
+   │   │   └[classes]
+   │   │       │
+   │   │       └[META-INF]
+   │   │           │
+   │   │           └MANIFEST
+   │   ├
+   │   ├mvnw
+   │   ├mvnw
+   │   └pom
+   ├[logs]
+   │   │
+   │   └spring
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               └SpringBootToolsApplication
+   │   │   └[resources]
+   │   │       │
+   │   │       ├[static]
+   │   │       ├[templates]
+   │   │       ├application
+   │   │       └logback-spring
+   │   └[test]
+   │       │
+   │       └[java]
+   │           │
+   │           └[com]
+   │               │
+   │               └[oreilly]
+   │                   │
+   │                   └[boot]
+   │                       │
+   │                       └SpringBootToolsApplicationTests
+   ├
+   ├
+   ├mvnw
+   ├mvnw
+   ├myLog
+   ├pom
+   └temp

@@ -1,0 +1,57 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0600\0604 Resource Versioning\Versioning Resources
+   │
+   ├[.apt_generated]
+   ├[.mvn]
+   │   │
+   │   └[wrapper]
+   │       │
+   │       ├maven-wrapper
+   │       └maven-wrapper
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.apt.core
+   │   ├org.eclipse.jdt.core
+   │   ├org.eclipse.m2e.core
+   │   └org.eclipse.wst.common.project.facet.core
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               └Application
+   │   │   └[resources]
+   │   │       │
+   │   │       ├[static]
+   │   │       │   │
+   │   │       │   └[css]
+   │   │       │       │
+   │   │       │       └global
+   │   │       ├[templates]
+   │   │       │   │
+   │   │       │   └template
+   │   │       └application
+   │   └[test]
+   │       │
+   │       └[java]
+   │           │
+   │           └[com]
+   │               │
+   │               └[oreilly]
+   │                   │
+   │                   └[boot]
+   │                       │
+   │                       └ApplicationTests
+   ├
+   ├
+   ├
+   ├mvnw
+   ├mvnw
+   └pom

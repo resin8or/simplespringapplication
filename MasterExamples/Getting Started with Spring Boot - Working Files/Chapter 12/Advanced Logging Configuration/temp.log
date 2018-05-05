@@ -1,0 +1,24 @@
+2016-05-17 19:10:55.491  INFO 2916 --- [restartedMain] c.o.boot.SpringBootToolsApplication      : Starting SpringBootToolsApplication on Titan with PID 2916 (C:\Users\Training\Desktop\sts-workspace\spring-boot-tools\target\classes started by Training in C:\Users\Training\Desktop\sts-workspace\spring-boot-tools)
+2016-05-17 19:10:55.497  INFO 2916 --- [restartedMain] c.o.boot.SpringBootToolsApplication      : The following profiles are active: prod
+2016-05-17 19:10:55.588  INFO 2916 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d2b8944: startup date [Tue May 17 19:10:55 EDT 2016]; root of context hierarchy
+2016-05-17 19:10:58.274  INFO 2916 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-05-17 19:10:58.301  INFO 2916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-17 19:10:58.304  INFO 2916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-17 19:10:58.473  INFO 2916 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-17 19:10:58.473  INFO 2916 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2891 ms
+2016-05-17 19:10:58.971  INFO 2916 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-17 19:10:58.979  INFO 2916 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-17 19:10:58.980  INFO 2916 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-17 19:10:58.980  INFO 2916 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-17 19:10:58.981  INFO 2916 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-17 19:10:59.310  INFO 2916 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d2b8944: startup date [Tue May 17 19:10:55 EDT 2016]; root of context hierarchy
+2016-05-17 19:10:59.431  INFO 2916 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.oreilly.boot.SpringBootToolsApplication.hello()
+2016-05-17 19:10:59.437  INFO 2916 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-17 19:10:59.438  INFO 2916 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-17 19:10:59.487  INFO 2916 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-17 19:10:59.487  INFO 2916 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-17 19:10:59.548  INFO 2916 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-17 19:10:59.716  INFO 2916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2016-05-17 19:10:59.817  INFO 2916 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-17 19:10:59.934  INFO 2916 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-05-17 19:10:59.942  INFO 2916 --- [restartedMain] c.o.boot.SpringBootToolsApplication      : Started SpringBootToolsApplication in 5.136 seconds (JVM running for 6.157)

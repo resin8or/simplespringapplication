@@ -1,0 +1,57 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0400\0403 Project Setup\Gradle Project Setup
+   │
+   ├[.gradle]
+   │   │
+   │   └[2.12]
+   │       │
+   │       └[taskArtifacts]
+   │           │
+   │           ├cache
+   │           ├cache.properties
+   │           ├fileHashes
+   │           ├fileSnapshots
+   │           ├outputFileStates
+   │           └taskArtifacts
+   ├[.settings]
+   │   │
+   │   └org.eclipse.buildship.core
+   ├[gradle]
+   │   │
+   │   └[wrapper]
+   │       │
+   │       ├gradle-wrapper
+   │       └gradle-wrapper
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               └StarterProjectGradleApplication
+   │   │   └[resources]
+   │   │       │
+   │   │       ├[static]
+   │   │       ├[templates]
+   │   │       └application
+   │   └[test]
+   │       │
+   │       └[java]
+   │           │
+   │           └[com]
+   │               │
+   │               └[oreilly]
+   │                   │
+   │                   └[boot]
+   │                       │
+   │                       └StarterProjectGradleApplicationTests
+   ├
+   ├
+   ├build
+   ├gradlew
+   └gradlew

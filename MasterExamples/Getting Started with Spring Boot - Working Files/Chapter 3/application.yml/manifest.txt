@@ -1,0 +1,41 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0300\0306 application.yaml\application.yml
+   │
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.core
+   │   ├org.eclipse.m2e.core
+   │   └org.eclipse.wst.common.project.facet.core
+   ├[bin]
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               └Application
+   │   │   └[resources]
+   │   │       │
+   │   │       ├application
+   │   │       └application2
+   │   └[test]
+   │       │
+   │       ├[java]
+   │       │   │
+   │       │   └[com]
+   │       │       │
+   │       │       └[oreilly]
+   │       │           │
+   │       │           └[boot]
+   │       │               │
+   │       │               └ApplicationTest
+   │       └[resources]
+   ├
+   ├
+   └pom

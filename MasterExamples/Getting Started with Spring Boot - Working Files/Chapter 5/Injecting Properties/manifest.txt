@@ -1,0 +1,55 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0500\0505 Injecting Properties\Injecting Properties
+   │
+   ├[.apt_generated]
+   ├[.mvn]
+   │   │
+   │   └[wrapper]
+   │       │
+   │       ├maven-wrapper
+   │       └maven-wrapper
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.apt.core
+   │   ├org.eclipse.jdt.core
+   │   ├org.eclipse.m2e.core
+   │   └org.eclipse.wst.common.project.facet.core
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               ├Application
+   │   │   │               ├ApplicationConfiguration
+   │   │   │               └MyMessage
+   │   │   └[resources]
+   │   │       │
+   │   │       ├[static]
+   │   │       ├[templates]
+   │   │       ├application-prod
+   │   │       ├application
+   │   │       └example
+   │   └[test]
+   │       │
+   │       └[java]
+   │           │
+   │           └[com]
+   │               │
+   │               └[oreilly]
+   │                   │
+   │                   └[boot]
+   │                       │
+   │                       └ApplicationTests
+   ├
+   ├
+   ├
+   ├mvnw
+   ├mvnw
+   └pom

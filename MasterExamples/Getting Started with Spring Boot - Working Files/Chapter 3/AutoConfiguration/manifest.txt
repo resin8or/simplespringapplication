@@ -1,0 +1,38 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0300\0304 Autoconfiguration\AutoConfiguration
+   │
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.core.resources
+   │   ├org.eclipse.jdt.core
+   │   ├org.eclipse.m2e.core
+   │   └org.eclipse.wst.common.project.facet.core
+   ├[bin]
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               └Application
+   │   │   └[resources]
+   │   └[test]
+   │       │
+   │       ├[java]
+   │       │   │
+   │       │   └[com]
+   │       │       │
+   │       │       └[oreilly]
+   │       │           │
+   │       │           └[boot]
+   │       │               │
+   │       │               └ApplicationTest
+   │       └[resources]
+   ├
+   ├
+   └pom

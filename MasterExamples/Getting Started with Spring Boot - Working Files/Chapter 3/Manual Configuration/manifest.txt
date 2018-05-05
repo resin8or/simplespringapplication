@@ -1,0 +1,28 @@
+Users\Training\Desktop\Courses\Spring Boot\Lessons\0300\0302 Manual Configuration\Manual Configuration
+   │
+   ├[.settings]
+   │   │
+   │   ├org.eclipse.jdt.core
+   │   └org.eclipse.m2e.core
+   ├[bin]
+   ├[src]
+   │   │
+   │   ├[main]
+   │   │   │
+   │   │   ├[java]
+   │   │   │   │
+   │   │   │   └[com]
+   │   │   │       │
+   │   │   │       └[oreilly]
+   │   │   │           │
+   │   │   │           └[boot]
+   │   │   │               │
+   │   │   │               └Application
+   │   │   └[resources]
+   │   └[test]
+   │       │
+   │       ├[java]
+   │       └[resources]
+   ├
+   ├
+   └pom
