@@ -1,4 +1,4 @@
-package entities;
+package com.example.entities;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

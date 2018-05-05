@@ -1,4 +1,4 @@
-package entities;
+package com.example.entities;
 
 public interface Game {
     void setHomeTeam(Team team);

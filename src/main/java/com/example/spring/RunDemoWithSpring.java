@@ -1,6 +1,6 @@
 package com.example.spring;
 
-import entities.Game;
+import com.example.entities.Game;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
