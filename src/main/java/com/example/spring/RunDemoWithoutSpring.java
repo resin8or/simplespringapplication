@@ -1,6 +1,6 @@
 package com.example.spring;
 
-import entities.*;
+import com.example.entities.*;
 
 /**
  * Created by tobinj on 03/05/2018.
