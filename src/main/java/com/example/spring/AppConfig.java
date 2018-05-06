@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
 
 import javax.sql.DataSource;
 import java.text.NumberFormat;
+import java.util.List;
 
 /**
  * Created by tobinj on 03/05/2018.
@@ -32,6 +32,9 @@ public class AppConfig {
     @Autowired @Qualifier("cubs")
     private Team away;
 
+    @Autowired
+    private List<Team> teams;
+
     // When not using the XML Config to get the NumberFormat
     // Class this can be done instead (comment out if using
     // the XML Config example
@@ -47,9 +50,13 @@ public class AppConfig {
     //private Team royals;
 
     // Default scope for Spring beans is Singleton!
-    @Bean @Scope("prototype")
+    //@Bean @Scope("prototype")
+    // Note when the scope is prototype (not singleton)
+    // the pre destroy method does not run!
+    @Bean
     public Game game(){
-        BaseballGame baseballGame = new BaseballGame(home, away);
+        BaseballGame baseballGame
+                = new BaseballGame(teams.get(0), teams.get(1));
         baseballGame.setDataSource(ds);
         return baseballGame;
     }
