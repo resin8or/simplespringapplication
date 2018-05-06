@@ -8,9 +8,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
-import javax.annotation.Resource;
 import javax.sql.DataSource;
+import java.text.NumberFormat;
 
 /**
  * Created by tobinj on 03/05/2018.
@@ -31,14 +32,22 @@ public class AppConfig {
     @Autowired @Qualifier("cubs")
     private Team away;
 
+    // When not using the XML Config to get the NumberFormat
+    // Class this can be done instead (comment out if using
+    // the XML Config example
+    @Bean
+    public NumberFormat nf(){
+        return NumberFormat.getCurrencyInstance();
+    }
+
     // @Resource wlll autowire by name.  java standard.
     // Might not want this if you want to use the types
     // and swap the implementation etc.
-    @Resource
-    private Team royals;
+    //@Resource
+    //private Team royals;
 
-
-    @Bean
+    // Default scope for Spring beans is Singleton!
+    @Bean @Scope("prototype")
     public Game game(){
         BaseballGame baseballGame = new BaseballGame(home, away);
         baseballGame.setDataSource(ds);
