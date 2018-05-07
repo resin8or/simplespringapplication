@@ -2,7 +2,6 @@ package com.example.aspects;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
@@ -28,7 +27,7 @@ public class LoggingAspect {
     }
 
     // The Around aspect is good for security and transactions
-    @Around("execution(String playGame())")
+   // @Around("execution(String playGame())")
     public Object reportAroundCalls(ProceedingJoinPoint pjp) throws Throwable {
         boolean rain = Math.random() < 0.5;
         Object result = null;
