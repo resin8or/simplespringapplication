@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import javax.sql.DataSource;
 import java.text.NumberFormat;
@@ -16,6 +17,7 @@ import java.util.List;
 /**
  * Created by tobinj on 03/05/2018.
  */
+@EnableAspectJAutoProxy
 @Configuration
 @ComponentScan (basePackages = "com.example")
 // Search current directory and component dirs
